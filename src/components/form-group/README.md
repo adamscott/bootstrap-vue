@@ -25,7 +25,7 @@
   export default {
     computed: {
       state() {
-        return this.name.length >= 4 ? true : false
+        return this.name.length >= 4
       },
       invalidFeedback() {
         if (this.name.length > 4) {
